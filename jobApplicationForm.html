@@ -6,7 +6,7 @@
 </head>
 <body>
 
-<h2>Job Application</h2>
+<h2>Nanny Application Form</h2>
 
 <form action="http://gclass.alexburner.com/formtest.php" method="post">
 
@@ -15,6 +15,10 @@
 		<div class="field">
 			<label>Email:</label> 
 			<input type="text" name="email">
+		</div>
+		<div class="field"> 
+			<label>User Name:</label>
+			<input type="text" name="user_name">
 		</div>
 		<div class="field">
 			<label>Password:</label> 
@@ -101,6 +105,16 @@
 			<label>ZIP:</label> 
 			<input type="text" name="zip">
 		</div>
+		<div class="field">
+			<label>Do you have a car that you are able to drive?</label>
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
+		<div class="field">
+			<label>Do you smoke?</label>
+			<input type="radio" name="legal" value="yes">Yes
+			<input type="radio" name="legal" value="no">No
+		</div>
 	</fieldset>
 
 	<fieldset>
@@ -159,11 +173,11 @@
 	<fieldset>
 		<legend>Personal Statement</legend>
 		<div class="field">
-			<label>Why do you deserve this job?</label><br>
+			<label>What are your passed experiences with childlcare?</label><br>
 			<textarea name="deserve" rows="6" cols="60"></textarea>
 		</div>
 		<div class="field">
-			<label>Describe a recent project:</label><br>
+			<label>Do you have any special training? If so, please describe.</label><br>
 			<textarea name="project" rows="6" cols="60"></textarea>
 		</div>
 	</fieldset>
